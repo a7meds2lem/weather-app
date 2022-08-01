@@ -1,0 +1,88 @@
+nav{
+    color: #fff !important;
+    padding-right:  10%;
+    background-color: #1E202B !important;
+    height: 130px;
+}
+nav a{
+    color: #fff !important;
+    border-radius: 50% !important;
+    text-decoration: none;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav a:hover{
+    color: #009AD8 !important;
+}
+body{
+    background-color: #1E202B ;
+}
+.home-contact{
+    background-color: #262936 !important;
+    height: 65px;
+    border: #1E202B solid 2px !important;
+    position: relative;
+}
+.chield{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    
+}
+.chield a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    color:#fff
+}
+.inputs{
+    background-color: transparent !important;
+    border:#262936 solid 3px ;
+    color: transparent;
+}
+.inputs:hover{
+    border:#009AD8 solid 3px ;
+}
+textarea{
+    border-radius: 10px !important;
+}
+.call-info{
+    min-height: 320px;
+    background-color: #262936;
+}
+.form_control{
+    font-size: 20px;
+  }
+
+  footer{
+      background-color: #1E202B;
+      width: 100%;
+      height: 200px;
+      margin-top: 50px;
+  }
+  .btn1{
+      background-color: #009AD8 !important;
+      right: 1%;
+      top: 10%;
+      color: #fff;
+      padding: 2%;
+  }
+  .contactinput{
+      padding: 3%;
+      background-color: #262936 !important;
+      border:#262936 solid 3px ;
+  }
+  .icon i{
+      color: #009AD8;
+      background-color: #262936;
+      border-radius: 47%;
+      padding: 5px;
+      border: solid 1px #262936;
+  }
+  .icon i:hover{
+      color: #009AD8;
+      background-color: #fff;
+  }
+  
