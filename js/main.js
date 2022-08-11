@@ -1,7 +1,6 @@
 
 
 
-
 // console.log(result) 
 //   todayDegree
 
@@ -37,7 +36,7 @@ mounths=['January' , 'February' , 'March' , 'April' , 'May ' , 'June' , 'July' ,
 
 
 // let myHttp = new XMLHttpRequest();
-// myHttp.open('GET' , `http://api.weatherapi.com/v1/forecast.json?key=b558d2ab34c548cabdd232930220407 &q=${Country}&days=3`);
+// myHttp.open('GET' , `https://api.weatherapi.com/v1/forecast.json?key=b558d2ab34c548cabdd232930220407 &q=${Country}&days=3`);
 // myHttp.send();
 
 
@@ -45,7 +44,7 @@ mounths=['January' , 'February' , 'March' , 'April' , 'May ' , 'June' , 'July' ,
 //     if(myHttp.readyState == 4)
 //     {
 //         result = JSON.parse(myHttp.response);
-//         console.log(result);
+//         // console.log(result);
 //         displayToday() ;
 //             displayNextday();
 //             displayThirdday();
@@ -54,7 +53,7 @@ mounths=['January' , 'February' , 'March' , 'April' , 'May ' , 'June' , 'July' ,
 
 async function getWeather()
 {
-    response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=b558d2ab34c548cabdd232930220407 &q=${Country}&days=3`);
+    response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=b558d2ab34c548cabdd232930220407 &q=${Country}&days=3`);
     result = await response.json();
     console.log(result);
     displayToday() ;

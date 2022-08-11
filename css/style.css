@@ -3,6 +3,7 @@ nav{
     padding-right:  10%;
     background-color: #1E202B !important;
     height: 130px;
+    z-index: 2122;
 }
 nav a{
     color: #fff !important;
@@ -85,4 +86,16 @@ textarea{
       color: #009AD8;
       background-color: #fff;
   }
+  .navbar-collapse{
+    background-color: #1E202B ;
+}
+  .navbar-toggler{
+    color: #fff;
+    /* background-color: #fff; */
+}
+.navbar-toggler-icon{
+    /* color: #fff; */
+    background-color: #3e4049;
+    border-radius:10% ;
+}
   

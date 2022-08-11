@@ -1,10 +1,16 @@
 <html>
     <head>
+      <title>weather-app</title>
+      <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Edu+TAS+Beginner&family=Inter&family=Italianno&family=Montserrat+Alternates:ital,wght@1,500&family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/all.min.css">
 <link rel="stylesheet" href="./css/main.css">
     </head>
     <body>
+      <!-- ================================navbar =================================== -->
         
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -33,50 +39,55 @@
               </div>
             </div>
           </nav>
-<div class="home">
-    <div class="container mt-5">
+      <!-- ================================header =================================== -->
+
+<div class="home pb-5">
+    <div class="container pt-5">
         <div class="row ">
-          <div class="d-flex justify-content-center mb-5 searchBar">
+          <div class="d-flex justify-content-center mb-5  searchBar">
             <input type="text" id="search" class="form_control rounded-pill p-2 w-100 text-white" form="search" placeholder="   Find Your Location.......">
             
           </div>
-            <div class="col-md-4 today ">
-                <div class="today-date d-flex justify-content-between rounded mb-4">
-                    <h5 id="today">sunday</h5>
-                    <h5 id="today-date"> 23 jun</h5>
-                </div>
-             <div class="px-2">
-                <h5 id="country"> london</h5>
-                <div class="today-details d-flex justify-content-between mt-4">
-                    <div class="d-flex"><h2 id="today-degree">35</h2><h2><sup>o</sup>C</h2></div>
-                    <div id="weathr-icon " ><img id="todayImage"  src="" alt=""></div>
-                </div>
-                <p id="state">sunnyx</p>
-                <div class="moreDetails d-flex justify-content-between mb-4 mt-4">
-                    <div><img src="./images/icon-umberella.png" alt=""><span id="humidity"></span> %</div>
-                    <div><img src="./images/icon-wind.png" alt=""><span id="wind"></span> km/h</div>
-                    <div><img src="./images/icon-compass.png" alt=""> <span id="compass"></span></div>
-                </div>
-             </div>
-            </div>
-            <div class="col-md-4 ">
-                <div class="next-day text-center"><p id="nextDay-date">monday</p> </div>
+            <div class="col-md-4 mt-4  today ">
+        
+                <div class="today-date d-flex justify-content-between rounded mb-4 py-1 px-2">
+          <h5 id="today">sunday</h5>
+          <h5 id="today-date"> 23 jun</h5>
+      </div>
+   <div class="px-2">
+      <h5 id="country"> london</h5>
+      <div class="today-details d-flex justify-content-between mt-4">
+          <div class="d-flex"><h2 id="today-degree">35</h2><h2><sup>o</sup>C</h2></div>
+          <div id="weathr-icon " ><img id="todayImage"  src="" alt=""></div>
+      </div>
+      <p id="state">sunnyx</p>
+      <div class="moreDetails d-flex justify-content-between mb-4 mt-4">
+          <div><img src="./images/icon-umberella.png" alt=""><span id="humidity"></span> %</div>
+          <div><img src="./images/icon-wind.png" alt=""><span id="wind"></span> km/h</div>
+          <div><img src="./images/icon-compass.png" alt=""> <span id="compass"></span></div>
+      </div>
+     </div>
+    </div>
+<!-- -=-=================================== next day ============================================= -->
+            <div class="col-md-4 mt-4  ">
+                <div class="next-day text-center "><p id="nextDay-date">monday</p> </div>
                 <div class="nextDay ">
                 <div class="nextDayDetails pt-3 d-flex justify-content-center flex-column align-items-center">
                     <div class="image mb-3"><img id="nextDayImage" src="" alt=""></div>
                    <div class=" d-flex mb-3"> <h3 class="" id="maxDegree">20 </h3><h3><sup>O</sup>C</h3></div>
-                   <div class="mb-3 d-inline"><h4 id="minDegree">34</h4><h4><sup>o</sup>C</h4></div>
+                   <div class="mb-3  d-flex"><h4 id="minDegree">34</h4><h4><sup>o</sup>C</h4></div>
                    <div class="mb-4"><p id="nextDayState">sunnyxx</p></div>
                 </div>
                </div> 
             </div>
-            <div class="col-md-4 ">
+<!-- -=-=================================== next day ============================================= -->
+            <div class="col-md-4 mt-4  ">
               <div class="nextDay2 ">
                <div class="next-day text-center"><p id="nextDay-date2">monday</p> </div>
                <div class="nextDayDetails pt-3 d-flex justify-content-center flex-column align-items-center">
                    <div class="image mb-3"><img id="nextDayImage2" src="" alt=""></div>
                   <div class=" d-flex mb-3"> <h3 class="" id="maxDegree">20 </h3><h3><sup>O</sup>C</h3></div>
-                  <div class="mb-3"><h4 id="minDegree2">34</h4><h4><sup>o</sup>C</h4></div>
+                  <div class="mb-3 d-flex"><h4 id="minDegree2">34</h4><h4><sup>o</sup>C</h4></div>
                   <div class="mb-4"><p id="nextDayState2">sunny</p></div>
                </div>
               </div>
@@ -84,6 +95,7 @@
         </div>
     </div>
 </div>
+      <!-- ================================footer =================================== -->
 
 <footer>
   <div class="container">
