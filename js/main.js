@@ -55,7 +55,7 @@ async function getWeather()
 {
     response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=b558d2ab34c548cabdd232930220407 &q=${Country}&days=3`);
     result = await response.json();
-    console.log(result);
+    // console.log(result);
     displayToday() ;
     displayNextday();
     displayThirdday();

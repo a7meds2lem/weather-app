@@ -63,25 +63,9 @@ input{
     background-image: url(../images/photo-1592210454359-9043f067919b.jfif);
     background-size: cover;
     background-position: center center;
+    height: 100vh;
 }
-/* .nextDay , .nextDay2{
-   height: 100%;
-} */
-/* .searchBar{
-    position: relative;
-}
-.label{
-    position: absolute;
-    top: 50%;
-    left: 3%;
-}
-.searchBar input:focus + label ,
-.searchBar input:not(:placeholder-shown) + label{
-    top: 20% !important;
-    font-size: 12px;
-    font-weight: 600px;
-    letter-spacing: 1px;
-} */
+
 .form_control{
   font-size: 20px;
 }
@@ -127,9 +111,3 @@ footer{
     background-color: #3e4049;
     border-radius:10% ;
 }
-/* search */
-/* #search{
-    border: 3px solid #222530;
-    background-color: #222530;
-    color: #1E202B;
-} */
