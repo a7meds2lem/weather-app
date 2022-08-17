@@ -35,21 +35,7 @@ days=['Sunday' , 'Monday' , 'Thursday' , 'Wensday' , 'Tuesday' , 'Frieday' , 'Sa
 mounths=['January' , 'February' , 'March' , 'April' , 'May ' , 'June' , 'July' , 'August' , 'September' , 'October' , 'November' , 'December']
 
 
-// let myHttp = new XMLHttpRequest();
-// myHttp.open('GET' , `https://api.weatherapi.com/v1/forecast.json?key=b558d2ab34c548cabdd232930220407 &q=${Country}&days=3`);
-// myHttp.send();
 
-
-// myHttp.addEventListener('readystatechange' , ()=>{
-//     if(myHttp.readyState == 4)
-//     {
-//         result = JSON.parse(myHttp.response);
-//         // console.log(result);
-//         displayToday() ;
-//             displayNextday();
-//             displayThirdday();
-//     }
-// })
 
 async function getWeather()
 {
@@ -108,42 +94,5 @@ $('ul li').click(function (){
 
 
 {
-    //     // for(var i=0 ; i<nextDay.length ; i++)
-    //     // {
-    //     //     nextDayDate[i].innerHTML = days[new Date(data.forecast.forecastday[i+1].date).getDay()];
-    //     //    maxDegree[i].innerHTML = data.forecast.forecastday[i+1].day.maxtemp_c;
-    //     //    nextDayImage[i].setAttribute('src' , `https:${data.forecast.forecastday[i+1].day.condition.icon}`);
-    //     //    minDegree[i].innerHTML = data.forecast.forecastday[i+1].day.mintemp_c;
-    //     //    nextDayState[i].innerHTML = data.forecast.forecastday[i+1].day.condition.text
-    //     // }
-// function displayNextxToday() {
-//       let box='';
-// for(let i=0 ; i<nextDay.length ; i++){
-//     box +=`
-    
-//     <div class="col-md-4 ">
-// <div class="nextDay ">
-//  <div class="next-day text-center"><p id="nextDay-date"></p> monday</div>
-//  <div class="nextDayDetails pt-3 d-flex justify-content-center flex-column align-items-center">
-//      <div class="image"><img id="nextDayImage" src="" alt=""></div>
-//     <div class=" d-flex "> <h3 class="" id="maxDegree">20 </h3><h3><sup>O</sup>C</h3></div>
-//     <div><h4 id="minDegree">34</h4><h4><sup>o</sup>C</h4></div>
-//     <div><p id="nextDayState">sunny</p></div>
-//  </div>
-// </div>
-// </div>
 
-//     `
-// }
-// document.getElementById
-// }
-   //     for(var i=0 ; i<nextDay.length ; i++)
-    //     {
-    //        nextDay[i].innerHTML = days[new Date(result.forecast.forecastday[i+1].date).getDay()];
-    //        maxDegree[i].innerHTML = result.forecast.forecastday[i+1].day.maxtemp_c;
-    //        nextDayIcon[i].setAttribute('src' , `https:${result.forecast.forecastday[i+1].day.condition.icon}`);
-    //        minDegree[i].innerHTML = result.forecast.forecastday[i+1].day.mintemp_c;
-    //        nextDayDescription[i].innerHTML = result.forecast.forecastday[i+1].day.condition.text
-    //     }
-    //   }
 }
