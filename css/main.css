@@ -1,67 +1,85 @@
-body{
-    font-family: 'Courgette', cursive;
-font-family: 'Edu TAS Beginner', cursive;
-font-family: 'Inter', sans-serif;
-font-family: 'Italianno', cursive;
-font-family: 'Montserrat Alternates', sans-serif;
-font-family: 'Noto Sans', sans-serif;
+body {
+    font-family: "Courgette", cursive;
+    font-family: "Edu TAS Beginner", cursive;
+    font-family: "Inter", sans-serif;
+    font-family: "Italianno", cursive;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
-nav{
+
+nav {
     color: #fff !important;
-    padding-right:  10%;
-    background-color: #1E202B !important;
+    padding-right: 10%;
+    background-color: #1e202b !important;
     height: 130px;
     z-index: 2122;
 }
-nav a{
+
+nav a {
     color: #fff !important;
     border-radius: 50% !important;
 }
-nav ul li{
+
+nav ul li {
     margin-left: 20px;
 }
-nav a:hover{
-    color: #009AD8 !important;
+
+nav a:hover {
+    color: #009ad8 !important;
 }
-.today{
+
+.today {
     background-color: #323544;
 }
-.container{
+
+.container {
     color: #fff;
 }
-.today-date{
-    background-color: #2D303D;
+
+.today-date {
+    background-color: #2d303d;
 }
-h2{
+
+h2 {
     font-size: 80px;
 }
-.col-md-4{
+
+.col-md-4 {
     border-radius: 5px !important;
 }
-.col-md-4{
-    background-color: #222530 ;
-    
+
+.col-md-4 {
+    background-color: #222530;
 }
-input{
+
+input {
     background-color: #262936 !important;
     border: 1px solid #262936 !important;
-    border:#262936 solid 3px !important ;
+    border: #262936 solid 3px !important;
 }
-.nextDayDetails{
-    background-color: #262936 ;
+
+.nextDayDetails {
+    background-color: #262936;
 }
-.col-xl-4{
-    background-color: #1E202B  !important;
+
+.col-xl-4 {
+    background-color: #1e202b !important;
 }
-#nextDay-date , #nextDay-date2{
+
+#nextDay-date,
+#nextDay-date2 {
     margin-top: 5px;
     font-size: 19px;
     font-weight: 500;
 }
-#nextDayState , #state , #nextDayState2{
+
+#nextDayState,
+#state,
+#nextDayState2 {
     color: rgb(219, 213, 213);
 }
-.home{
+
+.home {
     background-image: url(../images/photo-1592210454359-9043f067919b.jfif);
     background-size: cover;
     background-position: center center;
@@ -69,47 +87,56 @@ input{
     background-color: red;
 }
 
-.form_control{
-  font-size: 20px;
+.form_control {
+    font-size: 20px;
 }
-.imageLogo{
+
+.imageLogo {
     width: 100%;
 }
-footer{
-    background-color: #1E202B;
+
+footer {
+    background-color: #1e202b;
     width: 100%;
     height: 200px;
 }
-.btn1{
-    background-color: #009AD8 !important;
+
+.btn1 {
+    background-color: #009ad8 !important;
     right: 1%;
     top: 10%;
     color: #fff;
     padding: 2%;
 }
-.contactinput{
+
+.contactinput {
     padding: 3%;
 }
-.icon i{
-    color: #009AD8;
+
+.icon i {
+    color: #009ad8;
     background-color: #262936;
     border-radius: 47%;
     padding: 5px;
     border: solid 1px #262936;
 }
-.icon i:hover{
-    color: #009AD8;
+
+.icon i:hover {
+    color: #009ad8;
     background-color: #fff;
 }
+
 /* navbar */
-.navbar-collapse{
-    background-color: #1E202B ;
+.navbar-collapse {
+    background-color: #1e202b;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: #fff;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     /* color: #fff; */
     background-color: #3e4049;
-    border-radius:10% ;
+    border-radius: 10%;
 }
